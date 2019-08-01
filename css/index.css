@@ -181,21 +181,31 @@ img {
 }
 nav {
   width: 100%;
-  display: inline-block;
-  vertical-align: top;
   padding-top: 40px;
   padding-bottom: 20px;
   border-bottom: 2px dashed #C0C0C0;
+  display: flex;
+  justify-content: center;
 }
-nav h1 {
+nav .fun-bus {
   color: #212529;
 }
+nav .links {
+  padding-left: 200px;
+}
 nav a {
-  border: 1px solid red;
   text-decoration: none;
   color: #212529;
   font-size: 2rem;
+  margin: 20px;
 }
+/*
+.nav-links {
+     
+    border: 1px solid blue;
+    display: flex;
+}
+*/
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
